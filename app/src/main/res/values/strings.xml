@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tugas1_AKB</string>
+    <string name="judul">Monitory Membantu Anda \n Mengontrol HP Anak </string>
+    <string name="judul1">Kode Keluarga </string>
+    <string name="judul2">Ketikan kode keluarga yang ayah bunda miliki disini </string>
+    <string name="judul3"> Dengan menekan tombol masuk berarti Anda menyetujui \n <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+</resources>
