@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 class Main3Activity : AppCompatActivity() {
 
     lateinit var Nama : EditText
+    lateinit var Umur : EditText
     lateinit var button4 : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,13 +19,15 @@ class Main3Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main3)
 
         Nama = findViewById(R.id.editText)
+        Umur = findViewById(R.id.editText2)
         button4 = findViewById(R.id.button4)
 
         button4.setOnClickListener {
             var name = Nama.text.toString()
+            var umur = Umur.text.toString()
 
-            if(name.isEmpty()){
-                Toast.makeText(this, "Nama Tidak Boleh Dikosongkan",Toast.LENGTH_LONG).show();
+            if(name.isEmpty() || umur.isEmpty()){
+                Toast.makeText(this, "Nama Atau Umur Tidak Boleh Dikosongkan",Toast.LENGTH_LONG).show();
                 return@setOnClickListener
             }
             val intent = Intent(this, Main4Activity::class.java)

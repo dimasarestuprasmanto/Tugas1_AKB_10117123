@@ -10,7 +10,7 @@
         android:id="@+id/textView6"
         android:layout_width="373dp"
         android:layout_height="37dp"
-        android:text="Nama Panggila Kamu"
+        android:text="Nama Panggilan Kamu"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
